@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Planet_Spin_v2", "Assembly-CSharp.csproj", "{44E386C5-E3CF-DB29-2F4C-C4CBA95F68CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Planet_Spin_v2", "Assembly-CSharp-Editor.csproj", "{ACAB1194-EB02-70A0-4A21-9FEDF2A87F0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44E386C5-E3CF-DB29-2F4C-C4CBA95F68CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E386C5-E3CF-DB29-2F4C-C4CBA95F68CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E386C5-E3CF-DB29-2F4C-C4CBA95F68CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E386C5-E3CF-DB29-2F4C-C4CBA95F68CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACAB1194-EB02-70A0-4A21-9FEDF2A87F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACAB1194-EB02-70A0-4A21-9FEDF2A87F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACAB1194-EB02-70A0-4A21-9FEDF2A87F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACAB1194-EB02-70A0-4A21-9FEDF2A87F0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

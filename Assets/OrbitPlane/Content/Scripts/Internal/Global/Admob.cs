@@ -6,7 +6,7 @@ using System;
 public class Admob : MonoBehaviour {
 
 	 // Start is called before the first frame update
-    private string APP_ID = "ca-app-pub-4625543203821613~8533202159";
+    private string APP_ID = "ca-app-pub-4625543203821613~4059969630";
     // private BannerView bannerAD = null;
     // private BannerView[] arrBanner;
     // private InterstitialAd interstitialAd;
@@ -34,7 +34,8 @@ public class Admob : MonoBehaviour {
         GameStatus.bannerAD = null;
         // deviceid = 4A259F2FEF8F58DE69DECC0A1BC5F1CD
         // deviceid = 2077ef9a63d2b398840261c8221a0c9b
-        string bannerId = "ca-app-pub-3940256099942544/6300978111"; //test 
+        // string bannerId = "ca-app-pub-3940256099942544/6300978111"; //test 
+        string bannerId = "ca-app-pub-4625543203821613/8278416240"; //real 
         GameStatus.bannerAD = new BannerView(bannerId, AdSize.Banner, AdPosition.Top);
         GameStatus.bannerAD.OnAdFailedToLoad += HandleOnAdFailedToLoad;
         // bannerAD.OnAdLoaded += HandleOnAdLoaded;
@@ -48,7 +49,8 @@ public class Admob : MonoBehaviour {
 
     public void RequestInterstitial()
     {
-        string interstitialId = "ca-app-pub-3940256099942544/1033173712"; // test 
+        // string interstitialId = "ca-app-pub-3940256099942544/1033173712"; // test 
+        string interstitialId = "ca-app-pub-4625543203821613/1513697346"; // real 
         // string interstitialId = "ca-app-pub-4418447600360926/9103693317";
         // string xiaoMi = "4A259F2FEF8F58DE69DECC0A1BC5F1CD";
         // string samSung = "A02A7F0D688B96A0656043674E4B2387";

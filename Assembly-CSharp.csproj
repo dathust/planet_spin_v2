@@ -117,7 +117,6 @@
      <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.31.0.txt" />
      <None Include="Assets\Plugins\Android\MainLibProj\AndroidManifest.xml" />
      <None Include="Assets\PlayServicesResolver\proguard-messaging-workaround.txt" />
-     <None Include="Assets\OrbitPlane\Documentation\ReadMe.txt" />
      <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
      <None Include="Assets\OrbitPlane\Content\Art\Shaders\Outline2D.shader" />
  <Reference Include="UnityEngine.UI">

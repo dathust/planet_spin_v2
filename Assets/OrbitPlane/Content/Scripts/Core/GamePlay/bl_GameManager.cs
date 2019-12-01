@@ -175,6 +175,6 @@ public class bl_GameManager : Singleton<bl_GameManager>
 
     public void RateMe5Star()
     {
-        Application.OpenURL("market://details?id=com.hutady.waveitup");
+        Application.OpenURL("market://details?id=com.cotato.planet");
     }
 }
